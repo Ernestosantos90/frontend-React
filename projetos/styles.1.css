@@ -1,0 +1,12 @@
+/* styles.1.css cascading style sheets */
+
+h1 {
+  font-size: 80px;
+  color: blue;
+}
+
+.principais-estilos {
+  background-color: black;
+  padding: 20px;
+  border-radius: 2%;
+}

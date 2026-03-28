@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Semanticas do HTML</title>
+</head>
+<body>
+    <header>
+        <!-- dentro do header podemos colocar elementos 
+         como navegação, logo, título da página, etc.
+            O header é usado para agrupar 
+            conteúdo introdutório ou de navegação.
+            não é uma boa pratica colocar elementos 
+            de conteúdo principal dentro do header, 
+            pois ele é destinado a informações de introdução ou navegação.
+         -->
+        <nav>
+            <!-- 
+            A tag nav é usada para agrupar elementos de navegação
+            como links para outras páginas, menus, etc.
+             O nav é importante para a acessibilidade,
+            pois ajuda os leitores de tela a identificar as áreas de navegação da página.
+            nesse caso ela esta sendo uma tag filha do header por estar dentro do header,
+             mas ela pode ser usada em outras partes da página, 
+             -->
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <h1>Tags Semânticas do HTML</h1>
+            <!-- 
+            O main é usado para agrupar o conteúdo principal do documento. 
+            Ele deve conter o conteúdo que é diretamente relacionado 
+            ao tema central da página. O main é importante para a 
+            acessibilidade, pois ajuda os leitores de tela a 
+            identificar o conteúdo principal da página. normalmente dentro do mais,
+             colocamos elementos como artigos, seções, etc. 
+             que são relacionados ao conteúdo principal da página.
+            -->
+
+            <section>
+                <!-- 
+                A tag section é usada para agrupar conteúdo relacionado dentro do documento. 
+                Ela é útil para organizar o conteúdo em blocos temáticos. 
+                Cada seção pode conter um título (usando a tag h1, h2, etc.) e outros elementos relacionados ao tema da seção. 
+                O uso de sections ajuda a melhorar a estrutura do documento e a acessibilidade, 
+                pois permite que os leitores de tela identifiquem facilmente as diferentes partes do conteúdo.
+                 
+                <exemplo de uso da tag section> abaixo
+                
+                -->
+            </section>
+
+            <section id="About me">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptas
+            </section>
+
+            <section id="my-project">
+                <h2>My project</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptas</p>
+            </section>
+
+            <!-- ou seja podem existir várias sections 
+             dentro de um main em uma página HTML, 
+            cada uma com um id único para facilitar a 
+            navegação e a acessibilidade. -->
+
+            <aside>
+                <!-- 
+                A tag aside é usada para agrupar conteúdo que é tangencialmente
+                 relacionado ao conteúdo principal da página. 
+                Ela é frequentemente usada para incluir informações 
+                adicionais, como barras laterais, anúncios, links relacionados, etc. 
+                O conteúdo dentro de um aside deve ser relevante para o
+                conteúdo principal, mas não essencial para a compreensão 
+                do tema central da página. O uso de asides ajuda a melhorar 
+                a estrutura do documento e a acessibilidade, 
+                pois permite que os leitores de tela identifiquem 
+                facilmente o conteúdo tangencial. esse conteudo 
+                normalmente fica na lateral da página, mas pode ser 
+                colocado em outras partes do documento,
+                 como por exemplo, dentro de um article, ou até mesmo 
+                 dentro de uma section, dependendo do contexto e 
+                 da organização do conteúdo.
+                 -->
+            </aside>
+
+            <figure>
+                <!-- 
+                A tag figure é usada para agrupar conteúdo ilustrativo, 
+                como imagens, gráficos, diagramas, etc. 
+                Ela é frequentemente usada em conjunto com a tag figcaption, 
+                que é usada para fornecer uma legenda ou descrição para o conteúdo dentro da figure. 
+                O uso de figure e figcaption ajuda a melhorar a estrutura do documento e a acessibilidade, 
+                pois permite que os leitores de tela identifiquem facilmente o conteúdo ilustrativo e sua descrição.
+                 -->
+                 <img src="https://via.placeholder.com/150" alt="Exemplo de imagem">
+                 <figcaption>Legenda da imagem</figcaption> 
+            </figure>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+</html>
+
+
+<!-- 
+para revisar uma lista de tudo que foi estudado sobre tags semânticas do HTML 
+foi: header, nav, main, section, aside, figure e figcaption.
+
+
+-->
+
+
+<!-- 
+                A tag a é usada para criar um link para outra página ou recurso.
+                O atributo href é usado para especificar o destino do link, que pode 
+                ser uma URL ou um endereço de email. quando adicionamos o atributo target="_blank", 
+                o link será aberto em uma nova aba do navegador. quando não adicionamos o atributo target, 
+                o link será aberto na mesma aba do navegador. 
+                no caso do atributo rel="noopener", ele é usado para evitar que 
+                o novo link tenha acesso ao objeto window.opener, 
+                o que pode ser uma vulnerabilidade de segurança. 
+             -->
