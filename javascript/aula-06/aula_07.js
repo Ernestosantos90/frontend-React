@@ -1,0 +1,45 @@
+// Boleoleanos, Controle de fluxos e Condicionais
+// os booleanos são valores que podem ser verdadeiro ou falso, e são muito utilizados para controle de fluxos e condicionais
+// o controle de fluxos é a forma como o código é executado, ou seja, a ordem em que as instruções são executadas
+// as condicionais são estruturas de controle de fluxo que permitem executar um bloco de código apenas se uma determinada condição for verdadeira
+
+// Operadores booleanos,
+/*os operadores booleanos são utilizados para comparar 
+valores e retornar um valor booleano, ou seja, verdadeiro ou falso
+os operadores de comparação são: ==, ===, !=, !==, >, <, >=, <=
+o operador == compara apenas o valor, ou seja, ele considera 
+que 5 e "5" são iguais, pois ambos possuem o mesmo valor*/
+const numero1 = 10;
+const numero2 = 11;
+
+console.log(numero1 == numero2); // isso vai retornar false, pois os valores são diferentes
+console.log(numero1 === numero2); // isso vai retornar false, pois os valores são diferentes e os tipos também são diferentes
+console.log(numero1 == "10"); // isso vai retornar true, pois os valores são iguais, mesmo que os tipos sejam diferentes
+console.log(numero1 === "10"); // isso vai retornar false, pois os valores são iguais, mas os tipos são diferentes
+/* então a diferença entre o operador == e === é que 
+o primeiro compara apenas o valor, enquanto o segundo 
+compara o valor e o tipo. então o melhor é sempre 
+usar os operadores === e !==  eles comparam o conteudo e o tipo*/
+
+/*o operador != compara apenas o valor, ou seja, ele considera que 5 e "5" são diferentes, pois ambos possuem o mesmo valor*/
+console.log(numero1 != numero2); // isso vai retornar true, pois os valores são diferentes
+console.log(numero1 !== numero2); // isso vai retornar true, pois os valores são diferentes e os tipos também são diferentes
+
+//existem outros operadores booleanos, como o operador lógico AND (&&), OR (||) e NOT (!)
+// o operador lógico AND (&&) retorna true se ambos os operandos forem verdadeiros, caso contrário, retorna false
+console.log(true && true); // isso vai retornar true, pois ambos os operandos são verdadeiros
+console.log(true && false); // isso vai retornar false, pois um dos operandos é falso
+console.log(false && false); // isso vai retornar false, pois ambos os operandos são falsos
+// o operador lógico OR (||) retorna true se pelo menos um dos operandos for verdadeiro, caso contrário, retorna false
+console.log(true || true); // isso vai retornar true, pois ambos os operandos são verdadeiros
+console.log(true || false); // isso vai retornar true, pois um dos operandos é verdadeiro
+console.log(false || false); // isso vai retornar false, pois ambos os operandos são falsos
+// o operador lógico NOT (!) retorna true se o operando for falso, caso contrário, retorna false
+console.log(!true); // isso vai retornar false, pois o operando é verdadeiro
+console.log(!false); // isso vai retornar true, pois o operando é falso 
+
+//exemplo com >, <, >=, <=
+console.log(numero1 > numero2); // isso vai retornar false, pois 10 não é maior que 11
+console.log(numero1 < numero2); // isso vai retornar true, pois 10 é menor que 11
+console.log(numero1 >= numero2); // isso vai retornar false, pois 10 não é maior ou igual a 11
+console.log(numero1 <= numero2); // isso vai retornar true, pois 10 é menor ou igual a 11
