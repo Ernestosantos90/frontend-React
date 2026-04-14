@@ -14,3 +14,14 @@ console.log(resultado); // Output: "Par"
 const temperatura = 30;
 const clima = temperatura > 25 ? "Quente" : "Frio";
 console.log(clima); // Output: "Quente"
+////////////////////////////////////////////////////////////////
+//pode ser feito daq seguinte maneira também
+
+//idade >= 18 ? console.log("Maior de idade") : console.log("Menor de idade");
+
+const mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+console.log(mensagem); // Output: "Maior de idade"
+
+/*resumindo, o operador ternário é uma forma concisa de escrever expressões 
+condicionais, permitindo que você retorne um valor com base em uma condição 
+de maneira mais compacta do que usando estruturas tradicionais como if-else.*/
